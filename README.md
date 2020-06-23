@@ -15,9 +15,9 @@
 
 ## References
 
-[1] Cong Sun, Qingsong Yao, Jianfeng Ma: Certia: Certifying Interface Automata for Cyber-Physical Systems. SMARTCOMP 2017: 1-3
-[2] Cong Sun, Ning Xi, Jianfeng Ma: Enforcing Generalized Refinement-Based Noninterference for Secure Interface Composition. COMPSAC (1) 2017: 586-595
-[3] Cong Sun, Ning Xi, Sheng Gao, Tao Zhang, Jinku Li, Jianfeng Ma: A Generalized Non-interference Based on Refinement of Interfaces. Journal of Computer Research and Development, 2015, 52(7): 1631-1641. (in Chinese)
+1. Cong Sun, Qingsong Yao, Jianfeng Ma: Certia: Certifying Interface Automata for Cyber-Physical Systems. SMARTCOMP 2017: 1-3
+2. Cong Sun, Ning Xi, Jianfeng Ma: Enforcing Generalized Refinement-Based Noninterference for Secure Interface Composition. COMPSAC (1) 2017: 586-595
+3. Cong Sun, Ning Xi, Sheng Gao, Tao Zhang, Jinku Li, Jianfeng Ma: A Generalized Non-interference Based on Refinement of Interfaces. Journal of Computer Research and Development, 2015, 52(7): 1631-1641. (in Chinese)
 
 ## Author
 
