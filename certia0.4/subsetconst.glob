@@ -1,0 +1,39 @@
+DIGEST 928d6f315db39e6f914ca7df84cef8cf
+Fsubsetconst
+R880:881 IA <> <> lib
+R899:907 NewStates <> <> lib
+def 922:940 <> subset_construction
+R945:946 IA <> IA ind
+R951:952 IA <> IA ind
+R970:988 IA IAutomaton get_init def
+R990:990 subsetconst <> a var
+R1009:1029 IA IAutomaton get_states def
+R1031:1031 subsetconst <> a var
+R1048:1067 NewStates NewSSet subset_const def
+R1289:1301 state SSet cardinal def
+R1303:1308 subsetconst <> states var
+R1248:1260 transition TSet elements def
+R1263:1282 IA IAutomaton get_trans def
+R1284:1284 subsetconst <> a var
+R1182:1201 NewStates NewSSet power_states def
+R1205:1231 NewStates NewSSet convertSSet2NewSSet def
+R1233:1238 subsetconst <> states var
+R1150:1171 IA IAutomaton get_actions def
+R1173:1173 subsetconst <> a var
+R1113:1123 NewStates NewSSet add def
+R1130:1142 NewStates NewSSet empty def
+R1125:1128 subsetconst <> init var
+R1075:1085 NewStates NewSSet add def
+R1092:1104 NewStates NewSSet empty def
+R1087:1090 subsetconst <> init var
+R1316:1324 IA <> constr_ia constr
+R1430:1432 subsetconst <> trs var
+R1409:1425 IA IAutomaton get_AH def
+R1427:1427 subsetconst <> a var
+R1387:1403 IA IAutomaton get_AO def
+R1405:1405 subsetconst <> a var
+R1365:1381 IA IAutomaton get_AI def
+R1383:1383 subsetconst <> a var
+R1355:1358 subsetconst <> init var
+R1327:1347 transition TSet getStatesByTrans def
+R1349:1351 subsetconst <> trs var

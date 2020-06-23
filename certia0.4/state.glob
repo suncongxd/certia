@@ -1,0 +1,157 @@
+DIGEST a0913f0973d155eeeedabbddc933a9cc
+Fstate
+R599:603 Coq.MSets.MSets <> <> lib
+R621:626 Coq.Strings.String <> <> lib
+R645:651 element <> <> lib
+ind 665:666 <> St
+constr 679:680 <> st
+R692:695 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R696:697 state <> St ind
+R683:691 element Element t def
+R723:724 state <> st constr
+R727:729 element <> lbl constr
+not 710:710 <> ::'$'_x
+def 765:769 <> eq_St
+R777:778 state <> St ind
+R800:801 state <> s' var
+R798:798 state <> s var
+R812:813 state <> st constr
+R817:818 state <> st constr
+R826:835 element Element eq def
+def 861:869 <> eq_St_dec
+R885:886 state <> St ind
+R889:889 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R900:902 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R915:915 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R890:894 state <> eq_St def
+R898:899 state <> s' var
+R896:896 state <> s var
+R903:904 Coq.Init.Logic <> :type_scope:'~'_x not
+R905:909 state <> eq_St def
+R913:914 state <> s' var
+R911:911 state <> s var
+R971:984 element Element eq_dec def
+R971:984 element Element eq_dec def
+R1054:1067 element Element eq_dec def
+R1054:1067 element Element eq_dec def
+def 1091:1096 <> beq_St
+R1104:1105 state <> St ind
+R1109:1112 Coq.Init.Datatypes <> bool ind
+R1127:1128 state <> s' var
+R1125:1125 state <> s var
+R1139:1140 state <> st constr
+R1144:1145 state <> st constr
+R1153:1163 element Element beq def
+R1195:1207 Coq.Structures.Equalities DecidableType <> mod
+mod 1186:1190 <> State
+def 1222:1222 State t
+R1227:1228 state <> St ind
+def 1243:1244 State eq
+R1248:1249 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1251:1252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1250:1250 state State t def
+R1247:1247 state State t def
+R1261:1265 state <> eq_St def
+inst 1278:1285 State eq_equiv
+R1288:1298 Coq.Classes.RelationClasses <> Equivalence class
+R1300:1301 state State eq def
+R1319:1327 Coq.Classes.RelationClasses <> Reflexive class
+R1356:1366 element <> eq_Elt_refl def
+R1356:1366 element <> eq_Elt_refl def
+R1377:1385 Coq.Classes.RelationClasses <> Symmetric class
+R1416:1425 element <> eq_Elt_sym def
+R1416:1425 element <> eq_Elt_sym def
+R1436:1445 Coq.Classes.RelationClasses <> Transitive class
+R1478:1489 element <> eq_Elt_trans def
+R1478:1489 element <> eq_Elt_trans def
+def 1513:1518 State eq_dec
+R1523:1531 state <> eq_St_dec def
+def 1546:1548 State beq
+R1553:1558 state <> beq_St def
+def 1573:1576 State prod
+R1584:1584 state State t def
+R1588:1588 state State t def
+R1603:1604 state <> s' var
+R1601:1601 state <> s var
+R1615:1616 state <> st constr
+R1621:1622 state <> st constr
+R1630:1631 state <> st constr
+R1634:1645 element Element prod def
+R1665:1669 state State <> mod
+R1724:1728 Coq.MSets.MSetInterface WSets <> mod
+mod 1716:1719 <> SSet
+R1739:1755 Coq.MSets.MSetWeakList Make <> modtype
+R1757:1761 state State <> modtype
+def 1796:1807 SSet elt_prod_aux
+R1812:1814 state SSet elt def
+R1820:1823 Coq.Init.Datatypes <> list ind
+R1825:1827 state SSet elt def
+R1831:1831 state SSet t def
+R1844:1844 state <> l var
+R1856:1858 Coq.Init.Datatypes <> nil constr
+R1863:1867 state SSet empty def
+R1874:1877 Coq.Init.Datatypes <> cons constr
+R1887:1889 state SSet add def
+R1909:1920 state <> elt_prod_aux def
+R1922:1922 state <> s var
+R1892:1901 state State prod def
+R1903:1903 state <> s var
+def 1946:1953 SSet elt_prod
+R1958:1960 state SSet elt def
+R1966:1966 state SSet t def
+R1970:1970 state SSet t def
+R1978:1989 state SSet elt_prod_aux def
+R1994:2001 state SSet elements def
+R2003:2003 state <> l var
+R1991:1991 state <> s var
+def 2017:2024 SSet prod_aux
+R2029:2032 Coq.Init.Datatypes <> list ind
+R2034:2036 state SSet elt def
+R2043:2043 state SSet t def
+R2047:2047 state SSet t def
+R2060:2060 state <> l var
+R2073:2075 Coq.Init.Datatypes <> nil constr
+R2080:2084 state SSet empty def
+R2092:2095 Coq.Init.Datatypes <> cons constr
+R2105:2109 state SSet union def
+R2128:2135 state <> prod_aux def
+R2140:2141 state <> l' var
+R2112:2119 state SSet elt_prod def
+R2123:2124 state <> l' var
+def 2162:2165 SSet prod
+R2173:2173 state SSet t def
+R2177:2177 state SSet t def
+R2182:2189 state SSet prod_aux def
+R2204:2205 state <> l' var
+R2192:2199 state SSet elements def
+R2201:2201 state <> l var
+def 2285:2290 SSet GenSts
+R2295:2298 Coq.Init.Datatypes <> list ind
+R2300:2302 state SSet elt def
+R2306:2306 state SSet t def
+R2319:2319 state <> l var
+R2330:2332 Coq.Init.Datatypes <> nil constr
+R2337:2341 state SSet empty def
+R2347:2350 Coq.Init.Datatypes <> cons constr
+R2360:2362 state SSet add def
+R2367:2372 state <> GenSts def
+def 2674:2680 SSet display
+R2685:2688 Coq.Init.Datatypes <> list ind
+R2690:2692 state SSet elt def
+R2696:2701 Coq.Strings.String <> string ind
+R2714:2714 state <> l var
+R2725:2727 Coq.Init.Datatypes <> nil constr
+R2732:2742 Coq.Strings.String <> EmptyString constr
+R2748:2751 Coq.Init.Datatypes <> cons constr
+R2772:2772 state <> l var
+R2787:2789 Coq.Init.Datatypes <> nil constr
+R2808:2809 state <> st constr
+R2817:2831 element Element display def
+R2846:2849 Coq.Init.Datatypes <> cons constr
+R2872:2873 state <> st constr
+R2889:2901 Coq.Strings.String <> append def
+R2924:2936 Coq.Strings.String <> append def
+R2944:2950 state <> display def
+R2952:2952 state <> l var
+R2904:2918 element Element display def
+R3175:3178 state SSet <> mod

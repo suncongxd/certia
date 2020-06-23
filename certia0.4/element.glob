@@ -1,0 +1,227 @@
+DIGEST ce171646fe48e0166c8b2ab84643a2e2
+Felement
+R601:606 Coq.Strings.String <> <> lib
+R624:628 Coq.Strings.Ascii <> <> lib
+R646:655 Coq.Structures.Equalities <> <> lib
+ind 669:671 <> Elt
+constr 683:685 <> lbl
+constr 705:707 <> cpl
+R695:698 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R699:701 element <> Elt ind
+R689:694 Coq.Strings.String <> string ind
+R717:720 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R724:727 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R728:730 element <> Elt ind
+R721:723 element <> Elt ind
+R711:716 Coq.Strings.String <> string ind
+def 745:749 <> beq_s
+R757:762 Coq.Strings.String <> string ind
+R766:769 Coq.Init.Datatypes <> bool ind
+R774:777 Coq.Init.Datatypes <> andb def
+R794:799 Coq.Strings.String <> prefix def
+R804:804 element <> s var
+R801:802 element <> s' var
+R780:785 Coq.Strings.String <> prefix def
+R789:790 element <> s' var
+R787:787 element <> s var
+def 820:829 <> neq_substr
+R842:846 Coq.Strings.Ascii <> ascii ind
+R852:857 Coq.Strings.String <> string ind
+R861:862 Coq.Init.Logic <> :type_scope:'~'_x not
+R876:876 Coq.Init.Logic <> :type_scope:'~'_x not
+R873:874 Coq.Init.Logic <> :type_scope:x_'='_x not
+R863:868 Coq.Strings.String <> String constr
+R872:872 element <> s var
+R870:870 element <> a var
+R875:875 element <> s var
+ind 994:999 <> eq_Elt
+constr 1026:1031 <> eq_lbl
+constr 1088:1093 <> eq_cpl
+R1005:1008 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1012:1015 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1009:1011 element <> Elt ind
+R1002:1004 element <> Elt ind
+R1046:1051 Coq.Strings.String <> string ind
+R1058:1061 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1062:1067 element <> eq_Elt ind
+R1078:1080 element <> lbl constr
+R1082:1083 element <> s' var
+R1070:1072 element <> lbl constr
+R1074:1074 element <> s var
+R1055:1055 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1054:1054 element <> s var
+R1056:1057 element <> s' var
+R1109:1114 Coq.Strings.String <> string ind
+R1123:1125 element <> Elt ind
+R1133:1133 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1153:1157 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1158:1163 element <> eq_Elt ind
+R1176:1178 element <> cpl constr
+R1183:1184 element <> e' var
+R1180:1181 element <> s' var
+R1166:1168 element <> cpl constr
+R1172:1172 element <> e var
+R1170:1170 element <> s var
+R1138:1141 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1135:1135 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1134:1134 element <> s var
+R1136:1137 element <> s' var
+R1142:1147 element <> eq_Elt ind
+R1151:1152 element <> e' var
+R1149:1149 element <> e var
+def 1200:1210 <> eq_Elt_refl
+R1224:1226 element <> Elt ind
+R1229:1234 element <> eq_Elt ind
+R1238:1238 element <> e var
+R1236:1236 element <> e var
+R1267:1272 element <> eq_lbl constr
+R1267:1272 element <> eq_lbl constr
+R1287:1292 element <> eq_cpl constr
+R1287:1292 element <> eq_cpl constr
+def 1322:1331 <> eq_Elt_sym
+R1348:1350 element <> Elt ind
+R1364:1367 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1368:1373 element <> eq_Elt ind
+R1378:1378 element <> e var
+R1375:1376 element <> e' var
+R1353:1358 element <> eq_Elt ind
+R1362:1363 element <> e' var
+R1360:1360 element <> e var
+R1445:1450 element <> eq_lbl constr
+R1445:1450 element <> eq_lbl constr
+R1509:1514 element <> eq_cpl constr
+R1509:1514 element <> eq_cpl constr
+def 1582:1593 <> eq_Elt_trans
+R1613:1615 element <> Elt ind
+R1629:1632 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1645:1648 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1649:1654 element <> eq_Elt ind
+R1658:1659 element <> e2 var
+R1656:1656 element <> e var
+R1633:1638 element <> eq_Elt ind
+R1643:1644 element <> e2 var
+R1640:1641 element <> e1 var
+R1618:1623 element <> eq_Elt ind
+R1627:1628 element <> e1 var
+R1625:1625 element <> e var
+R1771:1776 element <> eq_lbl constr
+R1771:1776 element <> eq_lbl constr
+R1826:1831 element <> eq_cpl constr
+R1826:1831 element <> eq_cpl constr
+def 1920:1929 <> eq_Elt_dec
+R1947:1949 element <> Elt ind
+R1952:1952 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1964:1966 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1980:1980 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1953:1958 element <> eq_Elt ind
+R1962:1963 element <> e' var
+R1960:1960 element <> e var
+R1967:1968 Coq.Init.Logic <> :type_scope:'~'_x not
+R1969:1974 element <> eq_Elt ind
+R1978:1979 element <> e' var
+R1976:1976 element <> e var
+R2095:2095 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2100:2102 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2108:2108 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2097:2097 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2103:2103 Coq.Init.Logic <> :type_scope:'~'_x not
+R2105:2105 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2095:2095 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2100:2102 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2108:2108 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2097:2097 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2103:2103 Coq.Init.Logic <> :type_scope:'~'_x not
+R2105:2105 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2120:2129 Coq.Strings.String <> string_dec def
+R2120:2129 Coq.Strings.String <> string_dec def
+R2158:2163 element <> eq_lbl constr
+R2158:2163 element <> eq_lbl constr
+R2230:2230 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2235:2237 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2243:2243 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2232:2232 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2238:2238 Coq.Init.Logic <> :type_scope:'~'_x not
+R2240:2240 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2230:2230 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2235:2237 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2243:2243 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2232:2232 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2238:2238 Coq.Init.Logic <> :type_scope:'~'_x not
+R2240:2240 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2255:2264 Coq.Strings.String <> string_dec def
+R2255:2264 Coq.Strings.String <> string_dec def
+R2327:2332 element <> eq_cpl constr
+R2327:2332 element <> eq_cpl constr
+R2444:2449 element <> eq_cpl constr
+R2444:2449 element <> eq_cpl constr
+def 2806:2812 <> beq_Elt
+R2820:2822 element <> Elt ind
+R2826:2829 Coq.Init.Datatypes <> bool ind
+R2844:2845 element <> e' var
+R2842:2842 element <> e var
+R2856:2858 element <> lbl constr
+R2862:2864 element <> lbl constr
+R2872:2876 element <> beq_s def
+R2887:2889 element <> lbl constr
+R2894:2896 element <> cpl constr
+R2905:2909 Coq.Init.Datatypes <> false constr
+R2915:2917 element <> cpl constr
+R2924:2926 element <> lbl constr
+R2933:2937 Coq.Init.Datatypes <> false constr
+R2943:2945 element <> cpl constr
+R2953:2955 element <> cpl constr
+R2966:2969 Coq.Init.Datatypes <> andb def
+R2985:2991 element <> beq_Elt def
+R2972:2976 element <> beq_s def
+R3026:3038 Coq.Structures.Equalities DecidableType <> mod
+mod 3015:3021 <> Element
+def 3052:3052 Element t
+R3055:3057 element <> Elt ind
+def 3072:3073 Element eq
+R3077:3078 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3080:3081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3079:3079 element Element t def
+R3076:3076 element Element t def
+R3090:3095 element <> eq_Elt ind
+inst 3108:3115 Element eq_equiv
+R3118:3128 Coq.Classes.RelationClasses <> Equivalence class
+R3130:3135 element <> eq_Elt ind
+R3154:3162 Coq.Classes.RelationClasses <> Reflexive class
+R3171:3181 element <> eq_Elt_refl def
+R3171:3181 element <> eq_Elt_refl def
+R3192:3200 Coq.Classes.RelationClasses <> Symmetric class
+R3209:3218 element <> eq_Elt_sym def
+R3209:3218 element <> eq_Elt_sym def
+R3229:3238 Coq.Classes.RelationClasses <> Transitive class
+R3247:3258 element <> eq_Elt_trans def
+R3247:3258 element <> eq_Elt_trans def
+def 3282:3287 Element eq_dec
+R3292:3301 element <> eq_Elt_dec def
+def 3316:3318 Element beq
+R3323:3324 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3326:3327 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3328:3331 Coq.Init.Datatypes <> bool ind
+R3325:3325 element Element t def
+R3322:3322 element Element t def
+R3335:3341 element <> beq_Elt def
+def 3354:3357 Element prod
+R3365:3365 element Element t def
+R3369:3369 element Element t def
+R3382:3382 element <> e var
+R3393:3395 element <> lbl constr
+R3402:3404 element <> cpl constr
+R3408:3409 element <> e' var
+R3415:3417 element <> cpl constr
+R3428:3430 element <> cpl constr
+R3435:3438 element <> prod def
+R3444:3445 element <> e' var
+def 3484:3490 Element display
+R3495:3495 element Element t def
+R3499:3504 Coq.Strings.String <> string ind
+R3517:3517 element <> e var
+R3528:3530 element <> lbl constr
+R3543:3545 element <> cpl constr
+R3555:3560 Coq.Strings.String <> append def
+R3565:3570 Coq.Strings.String <> append def
+R3577:3583 element <> display def
+R3601:3607 element Element <> mod

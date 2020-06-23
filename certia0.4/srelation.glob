@@ -1,0 +1,214 @@
+DIGEST aacaf21130f1deeac1cb74492d0eff40
+Fsrelation
+R603:607 Coq.MSets.MSets <> <> lib
+R625:629 state <> <> lib
+R647:653 element <> <> lib
+ind 667:670 <> SRel
+constr 681:684 <> srel
+R689:692 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R695:698 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R699:702 srelation <> SRel ind
+R693:694 state <> St ind
+R687:688 state <> St ind
+ind 716:722 <> eq_SRel
+constr 747:756 <> srel_ident
+constr 788:796 <> srel_pair
+R729:730 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R735:736 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R731:734 srelation <> SRel ind
+R725:728 srelation <> SRel ind
+R768:771 srelation <> SRel ind
+R774:780 srelation <> eq_SRel ind
+R784:784 srelation <> e var
+R782:782 srelation <> e var
+R820:821 state <> St ind
+R824:824 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R837:841 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R842:842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R855:861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R862:868 srelation <> eq_SRel ind
+R884:887 srelation <> srel constr
+R893:895 srelation <> s2' var
+R889:891 srelation <> s1' var
+R871:874 srelation <> srel constr
+R879:880 srelation <> s2 var
+R876:877 srelation <> s1 var
+R843:847 state <> eq_St def
+R852:854 srelation <> s2' var
+R849:850 srelation <> s2 var
+R825:829 state <> eq_St def
+R834:836 srelation <> s1' var
+R831:832 srelation <> s1 var
+def 911:921 <> eq_SRel_dec
+R936:939 srelation <> SRel ind
+R942:942 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R955:957 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R972:972 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R943:949 srelation <> eq_SRel ind
+R953:954 srelation <> e' var
+R951:951 srelation <> e var
+R958:959 Coq.Init.Logic <> :type_scope:'~'_x not
+R960:966 srelation <> eq_SRel ind
+R970:971 srelation <> e' var
+R968:968 srelation <> e var
+R1006:1006 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1017:1021 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1034:1034 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1007:1011 state <> eq_St def
+R1022:1023 Coq.Init.Logic <> :type_scope:'~'_x not
+R1024:1028 state <> eq_St def
+R1006:1006 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1017:1021 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1034:1034 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1007:1011 state <> eq_St def
+R1022:1023 Coq.Init.Logic <> :type_scope:'~'_x not
+R1024:1028 state <> eq_St def
+R1044:1052 state <> eq_St_dec def
+R1044:1052 state <> eq_St_dec def
+R1063:1063 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1075:1079 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1093:1093 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1064:1068 state <> eq_St def
+R1080:1081 Coq.Init.Logic <> :type_scope:'~'_x not
+R1082:1086 state <> eq_St def
+R1063:1063 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1075:1079 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1093:1093 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1064:1068 state <> eq_St def
+R1080:1081 Coq.Init.Logic <> :type_scope:'~'_x not
+R1082:1086 state <> eq_St def
+R1103:1111 state <> eq_St_dec def
+R1103:1111 state <> eq_St_dec def
+R1151:1159 srelation <> srel_pair constr
+R1151:1159 srelation <> srel_pair constr
+R1243:1253 element <> eq_Elt_refl def
+R1243:1253 element <> eq_Elt_refl def
+R1341:1351 element <> eq_Elt_refl def
+R1341:1351 element <> eq_Elt_refl def
+R1441:1451 element <> eq_Elt_refl def
+R1441:1451 element <> eq_Elt_refl def
+def 1495:1505 <> eq_SRel_sym
+R1520:1523 srelation <> SRel ind
+R1538:1541 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1542:1548 srelation <> eq_SRel ind
+R1553:1553 srelation <> e var
+R1550:1551 srelation <> e' var
+R1526:1532 srelation <> eq_SRel ind
+R1536:1537 srelation <> e' var
+R1534:1534 srelation <> e var
+R1593:1601 srelation <> srel_pair constr
+R1593:1601 srelation <> srel_pair constr
+R1652:1662 element <> eq_Elt_refl def
+R1652:1662 element <> eq_Elt_refl def
+R1718:1728 element <> eq_Elt_refl def
+R1718:1728 element <> eq_Elt_refl def
+R1737:1742 element <> eq_cpl constr
+R1737:1742 element <> eq_cpl constr
+R1780:1789 element <> eq_Elt_sym def
+R1780:1789 element <> eq_Elt_sym def
+R1846:1856 element <> eq_Elt_refl def
+R1846:1856 element <> eq_Elt_refl def
+R1913:1923 element <> eq_Elt_refl def
+R1913:1923 element <> eq_Elt_refl def
+R1932:1937 element <> eq_cpl constr
+R1932:1937 element <> eq_cpl constr
+R1975:1984 element <> eq_Elt_sym def
+R1975:1984 element <> eq_Elt_sym def
+def 2014:2025 <> eq_SRel_refl
+R2037:2040 srelation <> SRel ind
+R2043:2049 srelation <> eq_SRel ind
+R2053:2053 srelation <> e var
+R2051:2051 srelation <> e var
+R2082:2091 srelation <> srel_ident constr
+R2082:2091 srelation <> srel_ident constr
+prf 2110:2120 <> eq_SRel_rev
+R2142:2143 state <> St ind
+R2180:2183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2194:2197 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2184:2188 state <> eq_St def
+R2192:2193 srelation <> s' var
+R2190:2190 srelation <> s var
+R2198:2202 state <> eq_St def
+R2207:2209 srelation <> s1' var
+R2204:2205 srelation <> s1 var
+R2147:2153 srelation <> eq_SRel ind
+R2168:2171 srelation <> srel constr
+R2176:2178 srelation <> s1' var
+R2173:2174 srelation <> s' var
+R2156:2159 srelation <> srel constr
+R2163:2164 srelation <> s1 var
+R2161:2161 srelation <> s var
+R2284:2294 element <> eq_Elt_refl def
+R2284:2294 element <> eq_Elt_refl def
+R2284:2294 element <> eq_Elt_refl def
+R2332:2342 element <> eq_Elt_refl def
+R2332:2342 element <> eq_Elt_refl def
+R2351:2356 element <> eq_cpl constr
+R2351:2356 element <> eq_cpl constr
+R2397:2407 element <> eq_Elt_refl def
+R2397:2407 element <> eq_Elt_refl def
+R2416:2421 element <> eq_cpl constr
+R2416:2421 element <> eq_cpl constr
+def 2451:2463 <> eq_SRel_trans
+R2481:2484 srelation <> SRel ind
+R2499:2502 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2516:2519 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2520:2526 srelation <> eq_SRel ind
+R2530:2531 srelation <> e2 var
+R2528:2528 srelation <> e var
+R2503:2509 srelation <> eq_SRel ind
+R2514:2515 srelation <> e2 var
+R2511:2512 srelation <> e1 var
+R2487:2493 srelation <> eq_SRel ind
+R2497:2498 srelation <> e1 var
+R2495:2495 srelation <> e var
+R2574:2584 srelation <> eq_SRel_rev thm
+R2574:2584 srelation <> eq_SRel_rev thm
+R2598:2608 srelation <> eq_SRel_rev thm
+R2598:2608 srelation <> eq_SRel_rev thm
+R2648:2656 srelation <> srel_pair constr
+R2648:2656 srelation <> srel_pair constr
+R2694:2698 state <> eq_St def
+R2716:2727 element <> eq_Elt_trans def
+R2716:2727 element <> eq_Elt_trans def
+R2785:2789 state <> eq_St def
+R2808:2819 element <> eq_Elt_trans def
+R2808:2819 element <> eq_Elt_trans def
+def 2863:2870 <> beq_SRel
+R2879:2882 srelation <> SRel ind
+R2886:2889 Coq.Init.Datatypes <> bool ind
+R2904:2905 srelation <> e' var
+R2902:2902 srelation <> e var
+R2917:2920 srelation <> srel constr
+R2929:2932 srelation <> srel constr
+R2945:2948 Coq.Init.Datatypes <> andb def
+R2965:2970 state <> beq_St def
+R2951:2956 state <> beq_St def
+R3006:3018 Coq.Structures.Equalities DecidableType <> mod
+mod 2995:3001 <> SRelElt
+def 3032:3032 SRelElt t
+R3037:3040 srelation <> SRel ind
+def 3054:3055 SRelElt eq
+R3060:3066 srelation <> eq_SRel ind
+def 3080:3085 SRelElt eq_dec
+R3090:3100 srelation <> eq_SRel_dec def
+inst 3112:3119 SRelElt eq_equiv
+R3123:3133 Coq.Classes.RelationClasses <> Equivalence class
+R3135:3136 srelation SRelElt eq def
+R3155:3163 Coq.Classes.RelationClasses <> Reflexive class
+R3172:3183 srelation <> eq_SRel_refl def
+R3172:3183 srelation <> eq_SRel_refl def
+R3194:3202 Coq.Classes.RelationClasses <> Symmetric class
+R3211:3221 srelation <> eq_SRel_sym def
+R3211:3221 srelation <> eq_SRel_sym def
+R3232:3241 Coq.Classes.RelationClasses <> Transitive class
+R3250:3262 srelation <> eq_SRel_trans def
+R3250:3262 srelation <> eq_SRel_trans def
+def 3285:3287 SRelElt beq
+R3292:3299 srelation <> beq_SRel def
+R3306:3312 srelation SRelElt <> mod
+R3334:3338 Coq.MSets.MSetInterface WSets <> mod
+mod 3323:3329 <> SRelSet
+R3349:3365 Coq.MSets.MSetWeakList Make <> modtype
+R3367:3373 srelation SRelElt <> modtype
+R3381:3387 srelation SRelSet <> mod

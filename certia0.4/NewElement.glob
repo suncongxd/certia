@@ -1,0 +1,150 @@
+DIGEST f06e17ee29f08b1f9de7b481b138f636
+FNewElement
+R630:634 Coq.MSets.MSets <> <> lib
+R652:657 Coq.Strings.String <> <> lib
+R675:681 element <> <> lib
+R699:708 transition <> <> lib
+R726:731 action <> <> lib
+R757:769 Coq.Structures.Equalities DecidableType <> mod
+mod 743:752 <> NewElement
+def 783:783 NewElement t
+R786:788 element <> Elt ind
+def 803:804 NewElement eq
+R808:809 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R811:812 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R810:810 NewElement NewElement t def
+R807:807 NewElement NewElement t def
+R821:826 element <> eq_Elt ind
+inst 839:846 NewElement eq_equiv
+R849:859 Coq.Classes.RelationClasses <> Equivalence class
+R861:866 element <> eq_Elt ind
+R885:893 Coq.Classes.RelationClasses <> Reflexive class
+R902:912 element <> eq_Elt_refl def
+R902:912 element <> eq_Elt_refl def
+R923:931 Coq.Classes.RelationClasses <> Symmetric class
+R940:949 element <> eq_Elt_sym def
+R940:949 element <> eq_Elt_sym def
+R960:969 Coq.Classes.RelationClasses <> Transitive class
+R978:989 element <> eq_Elt_trans def
+R978:989 element <> eq_Elt_trans def
+def 1013:1018 NewElement eq_dec
+R1023:1032 element <> eq_Elt_dec def
+def 1047:1049 NewElement beq
+R1054:1055 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1057:1058 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1059:1062 Coq.Init.Datatypes <> bool ind
+R1056:1056 NewElement NewElement t def
+R1053:1053 NewElement NewElement t def
+R1066:1072 element <> beq_Elt def
+def 1104:1110 NewElement find_in
+R1115:1120 Coq.Strings.String <> string ind
+R1127:1127 NewElement NewElement t def
+R1131:1134 Coq.Init.Datatypes <> bool ind
+R1147:1148 NewElement <> e' var
+R1159:1161 element <> lbl constr
+R1169:1173 element <> beq_s def
+R1175:1175 NewElement <> s var
+R1184:1186 element <> cpl constr
+R1198:1200 Coq.Init.Datatypes <> orb def
+R1216:1222 NewElement <> find_in def
+R1224:1224 NewElement <> s var
+R1203:1207 element <> beq_s def
+R1209:1209 NewElement <> s var
+def 1304:1307 NewElement prod
+R1315:1315 NewElement NewElement t def
+R1319:1319 NewElement NewElement t def
+R1332:1332 NewElement <> e var
+R1343:1345 element <> lbl constr
+R1356:1362 NewElement NewElement find_in def
+R1366:1367 NewElement <> e' var
+R1384:1386 element <> cpl constr
+R1390:1391 NewElement <> e' var
+R1375:1376 NewElement <> e' var
+R1398:1400 element <> cpl constr
+R1415:1421 NewElement NewElement find_in def
+R1425:1426 NewElement <> e' var
+R1459:1462 NewElement <> prod def
+R1469:1471 element <> cpl constr
+R1475:1476 NewElement <> e' var
+R1435:1438 NewElement <> prod def
+R1444:1445 NewElement <> e' var
+def 1524:1530 NewElement bsubset
+R1538:1538 NewElement NewElement t def
+R1553:1556 Coq.Init.Datatypes <> bool ind
+R1569:1569 NewElement <> e var
+R1580:1582 element <> lbl constr
+R1590:1596 NewElement NewElement find_in def
+R1600:1601 NewElement <> e' var
+R1608:1610 element <> cpl constr
+R1621:1624 Coq.Init.Datatypes <> andb def
+R1653:1659 NewElement <> bsubset def
+R1665:1666 NewElement <> e' var
+R1627:1644 NewElement NewElement find_in def
+R1648:1649 NewElement <> e' var
+def 1688:1699 NewElement beq_disorder
+R1707:1707 NewElement NewElement t def
+R1711:1714 Coq.Init.Datatypes <> bool ind
+R1721:1724 Coq.Init.Datatypes <> andb def
+R1742:1748 NewElement NewElement bsubset def
+R1753:1753 NewElement <> e var
+R1750:1751 NewElement <> e' var
+R1727:1733 NewElement NewElement bsubset def
+R1737:1738 NewElement <> e' var
+R1735:1735 NewElement <> e var
+def 1790:1794 NewElement prod2
+R1802:1802 NewElement NewElement t def
+R1806:1806 NewElement NewElement t def
+R1816:1822 element <> beq_Elt def
+R1828:1830 element <> lbl constr
+R1824:1825 NewElement <> e' var
+R1861:1861 NewElement <> e var
+R1874:1876 element <> lbl constr
+R1887:1893 NewElement NewElement find_in def
+R1897:1898 NewElement <> e' var
+R1915:1917 element <> cpl constr
+R1921:1922 NewElement <> e' var
+R1906:1907 NewElement <> e' var
+R1931:1933 element <> cpl constr
+R1948:1954 NewElement NewElement find_in def
+R1958:1959 NewElement <> e' var
+R1994:1997 NewElement NewElement prod def
+R2004:2006 element <> cpl constr
+R2010:2011 NewElement <> e' var
+R1968:1971 NewElement NewElement prod def
+R1977:1978 NewElement <> e' var
+R1841:1841 NewElement <> e var
+def 2174:2181 NewElement move_aux
+R2187:2187 NewElement NewElement t def
+R2195:2197 action <> Act ind
+R2206:2209 Coq.Init.Datatypes <> list ind
+R2211:2215 transition <> Trans ind
+R2219:2219 NewElement NewElement t def
+R2232:2234 NewElement <> trs var
+R2245:2247 Coq.Init.Datatypes <> nil constr
+R2253:2255 element <> lbl constr
+R2276:2279 Coq.Init.Datatypes <> cons constr
+R2282:2286 transition <> trans constr
+R2289:2290 state <> st constr
+R2298:2299 state <> st constr
+R2326:2329 Coq.Init.Datatypes <> andb def
+R2347:2353 action <> beq_Act def
+R2355:2356 NewElement <> a0 var
+R2332:2338 NewElement NewElement bsubset def
+R2342:2343 NewElement <> e0 var
+R2413:2420 NewElement <> move_aux def
+R2425:2426 NewElement <> a0 var
+R2422:2423 NewElement <> e0 var
+R2367:2371 NewElement NewElement prod2 def
+R2377:2384 NewElement <> move_aux def
+R2389:2390 NewElement <> a0 var
+R2386:2387 NewElement <> e0 var
+def 2470:2476 NewElement display
+R2481:2481 NewElement NewElement t def
+R2485:2490 Coq.Strings.String <> string ind
+R2503:2503 NewElement <> e var
+R2514:2516 element <> lbl constr
+R2529:2531 element <> cpl constr
+R2541:2546 Coq.Strings.String <> append def
+R2551:2556 Coq.Strings.String <> append def
+R2563:2569 NewElement <> display def
+R2587:2596 NewElement NewElement <> mod

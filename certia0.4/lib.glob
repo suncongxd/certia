@@ -1,0 +1,45 @@
+DIGEST f2b46278c83cb5f79a15091678323185
+Flib
+R597:609 Coq.Strings.Ascii <> <> lib
+R627:640 Coq.Strings.String <> <> lib
+R658:685 Coq.Numbers.Natural.Peano.NPeano <> <> lib
+R703:707 Coq.omega.Omega <> <> lib
+def 746:755 <> natToDigit
+R762:764 Coq.Init.Datatypes <> nat ind
+R769:773 Coq.Strings.Ascii <> ascii ind
+R786:786 lib <> n var
+def 987:997 <> writeNatAux
+R1009:1011 Coq.Init.Datatypes <> nat ind
+R1021:1026 Coq.Strings.String <> string ind
+R1031:1036 Coq.Strings.String <> string ind
+R1055:1060 Coq.Strings.String <> String constr
+R1086:1088 lib <> acc var
+R1063:1072 lib <> natToDigit def
+R1076:1080 Coq.Numbers.Natural.Peano.NPeano <> :nat_scope:x_'mod'_x not
+R1075:1075 lib <> n var
+R1101:1104 lib <> time var
+R1122:1125 lib <> acc' var
+R1133:1133 Coq.Init.Datatypes <> S constr
+R1157:1159 Coq.Numbers.Natural.Peano.NPeano <> :nat_scope:x_'/'_x not
+R1156:1156 lib <> n var
+R1183:1186 lib <> acc' var
+R1205:1215 lib <> writeNatAux def
+R1226:1229 lib <> acc' var
+def 1261:1270 <> nat2string
+R1277:1279 Coq.Init.Datatypes <> nat ind
+R1284:1289 Coq.Strings.String <> string ind
+R1296:1306 lib <> writeNatAux def
+R1310:1310 lib <> n var
+R1308:1308 lib <> n var
+def 1326:1332 <> ble_nat
+R1341:1343 Coq.Init.Datatypes <> nat ind
+R1348:1351 Coq.Init.Datatypes <> bool ind
+R1364:1364 lib <> n var
+R1375:1375 Coq.Init.Datatypes <> O constr
+R1380:1383 Coq.Init.Datatypes <> true constr
+R1389:1389 Coq.Init.Datatypes <> S constr
+R1409:1409 lib <> m var
+R1424:1424 Coq.Init.Datatypes <> O constr
+R1429:1433 Coq.Init.Datatypes <> false constr
+R1443:1443 Coq.Init.Datatypes <> S constr
+R1451:1457 lib <> ble_nat def
