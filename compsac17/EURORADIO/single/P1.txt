@@ -1,0 +1,6 @@
+     = "IA [DATA_SS, WAIT_SS, IDLE_SS] (IDLE_SS) [Sa_DATA_ind_S, Sa_DISC_ind_S, Sa_CONN_conf_S] [Sa_DATA_req_S, Sa_DISC_req_S, Sa_CONN_req_S] [Sa_HPDATA_ind_S, Sa_HPDATA_req_S] [DATA_SS->(Sa_DISC_req_S)IDLE_SS, DATA_SS->(Sa_DISC_ind_S)IDLE_SS, DATA_SS->(Sa_HPDATA_req_S)DATA_SS, DATA_SS->(Sa_DATA_req_S)DATA_SS, DATA_SS->(Sa_HPDATA_ind_S)DATA_SS, DATA_SS->(Sa_DATA_ind_S)DATA_SS, WAIT_SS->(Sa_CONN_conf_S)DATA_SS, WAIT_SS->(Sa_DISC_ind_S)IDLE_SS, IDLE_SS->(Sa_CONN_req_S)WAIT_SS]"
+     : String.string
+     = "IA [DATA_SS, WAIT_SS, IDLE_SS] (IDLE_SS) [Sa_CONN_conf_S, Sa_DISC_ind_S, Sa_DATA_ind_S] [Sa_CONN_req_S, Sa_DISC_req_S, tau, Sa_DATA_req_S] [Sa_HPDATA_ind_S] [IDLE_SS->(Sa_CONN_req_S)WAIT_SS, WAIT_SS->(Sa_DISC_ind_S)IDLE_SS, WAIT_SS->(Sa_CONN_conf_S)DATA_SS, DATA_SS->(Sa_DATA_ind_S)DATA_SS, DATA_SS->(Sa_HPDATA_ind_S)DATA_SS, DATA_SS->(Sa_DATA_req_S)DATA_SS, DATA_SS->(tau)DATA_SS, DATA_SS->(Sa_DISC_ind_S)IDLE_SS, DATA_SS->(Sa_DISC_req_S)IDLE_SS]"
+     : String.string
+     = true
+     : bool

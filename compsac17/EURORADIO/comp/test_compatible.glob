@@ -1,0 +1,94 @@
+DIGEST b37e7844595d1627e8c585c6cf48bbd4
+Ftest_compatible
+R15:20 parser <> <> lib
+def 37:38 <> P1
+R41:42 IA <> IA ind
+R47:51 parser <> parse def
+def 563:564 <> P2
+R567:568 IA <> IA ind
+R573:577 parser <> parse def
+def 2145:2147 <> P2'
+R2150:2151 IA <> IA ind
+R2156:2160 parser <> parse def
+def 3610:3611 <> P3
+R3614:3615 IA <> IA ind
+R3620:3624 parser <> parse def
+def 4551:4552 <> P4
+R4555:4556 IA <> IA ind
+R4561:4565 parser <> parse def
+def 5801:5802 <> P5
+R5805:5806 IA <> IA ind
+R5811:5815 parser <> parse def
+R6410:6432 IA IAutomaton b_compatible def
+R6437:6438 test_compatible <> P2 def
+R6434:6435 test_compatible <> P1 def
+R6468:6490 IA IAutomaton b_compatible def
+R6495:6496 test_compatible <> P3 def
+R6492:6493 test_compatible <> P2 def
+def 6522:6524 <> P23
+R6527:6528 IA <> IA ind
+R6533:6554 IA IAutomaton composition def
+R6559:6560 test_compatible <> P3 def
+R6556:6557 test_compatible <> P2 def
+R6582:6604 IA IAutomaton b_compatible def
+R6609:6611 test_compatible <> P23 def
+R6606:6607 test_compatible <> P1 def
+R6643:6665 IA IAutomaton b_compatible def
+R6670:6672 test_compatible <> P2' def
+R6667:6668 test_compatible <> P1 def
+R6702:6724 IA IAutomaton b_compatible def
+R6730:6731 test_compatible <> P3 def
+R6726:6728 test_compatible <> P2' def
+def 6757:6760 <> P23'
+R6763:6764 IA <> IA ind
+R6769:6790 IA IAutomaton composition def
+R6796:6797 test_compatible <> P3 def
+R6792:6794 test_compatible <> P2' def
+R6819:6841 IA IAutomaton b_compatible def
+R6846:6849 test_compatible <> P23' def
+R6843:6844 test_compatible <> P1 def
+def 6950:6961 <> P2_synthesis
+R6964:6965 IA <> IA ind
+R6970:6974 parser <> parse def
+R8379:8401 IA IAutomaton b_compatible def
+R8406:8417 test_compatible <> P2_synthesis def
+R8403:8404 test_compatible <> P1 def
+R8448:8470 IA IAutomaton b_compatible def
+R8485:8486 test_compatible <> P3 def
+R8472:8483 test_compatible <> P2_synthesis def
+def 8544:8548 <> P23''
+R8551:8552 IA <> IA ind
+R8557:8578 IA IAutomaton composition def
+R8593:8594 test_compatible <> P3 def
+R8580:8591 test_compatible <> P2_synthesis def
+R8616:8638 IA IAutomaton b_compatible def
+R8643:8647 test_compatible <> P23'' def
+R8640:8641 test_compatible <> P1 def
+def 8675:8678 <> P123
+R8681:8682 IA <> IA ind
+R8687:8708 IA IAutomaton composition def
+R8713:8717 test_compatible <> P23'' def
+R8710:8711 test_compatible <> P1 def
+R8737:8739 IA <> ::':>'_x not
+R8740:8743 test_compatible <> P123 def
+R8795:8817 IA IAutomaton b_compatible def
+R8822:8823 test_compatible <> P4 def
+R8819:8820 test_compatible <> P3 def
+R8852:8874 IA IAutomaton b_compatible def
+R8879:8880 test_compatible <> P5 def
+R8876:8877 test_compatible <> P4 def
+def 8906:8908 <> P45
+R8911:8912 IA <> IA ind
+R8917:8938 IA IAutomaton composition def
+R8943:8944 test_compatible <> P5 def
+R8940:8941 test_compatible <> P4 def
+R8966:8988 IA IAutomaton b_compatible def
+R8993:8995 test_compatible <> P45 def
+R8990:8991 test_compatible <> P3 def
+def 9021:9024 <> P345
+R9027:9028 IA <> IA ind
+R9033:9054 IA IAutomaton composition def
+R9059:9061 test_compatible <> P45 def
+R9056:9057 test_compatible <> P3 def
+R9083:9085 IA <> ::':>'_x not
+R9086:9089 test_compatible <> P345 def

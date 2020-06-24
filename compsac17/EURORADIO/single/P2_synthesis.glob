@@ -1,0 +1,46 @@
+DIGEST 35737199524bfc9429c26008171147ee
+FP2_synthesis
+R15:20 parser <> <> lib
+R39:44 refine <> <> lib
+def 61:72 <> P2_synthesis
+R75:76 IA <> IA ind
+R81:85 parser <> parse def
+def 1485:1500 <> P2_synthesis_hid
+R1503:1504 IA <> IA ind
+R1511:1527 IA IAutomaton hiding def
+R1547:1558 action ASet GenActs def
+R1560:1560 parser <> ::'['_x_','_'..'_','_x_']' not
+R1579:1579 parser <> ::'['_x_','_'..'_','_x_']' not
+R1597:1597 parser <> ::'['_x_','_'..'_','_x_']' not
+R1616:1616 parser <> ::'['_x_','_'..'_','_x_']' not
+R1634:1634 parser <> ::'['_x_','_'..'_','_x_']' not
+R1617:1617 action <> ::'&'_x not
+R1598:1598 action <> ::'&'_x not
+R1580:1580 action <> ::'&'_x not
+R1561:1561 action <> ::'&'_x not
+R1529:1540 P2_synthesis <> P2_synthesis def
+def 1652:1667 <> P2_synthesis_rep
+R1670:1671 IA <> IA ind
+R1678:1694 IA IAutomaton hiding def
+R1809:1820 action ASet GenActs def
+R1822:1822 parser <> ::'['_x_','_'..'_','_x_']' not
+R1840:1841 parser <> ::'['_x_','_'..'_','_x_']' not
+R1860:1860 parser <> ::'['_x_','_'..'_','_x_']' not
+R1842:1842 action <> ::'&'_x not
+R1823:1823 action <> ::'&'_x not
+R1700:1721 IA IAutomaton replacement def
+R1751:1762 action ASet GenActs def
+R1764:1764 parser <> ::'['_x_','_'..'_','_x_']' not
+R1783:1783 parser <> ::'['_x_','_'..'_','_x_']' not
+R1801:1801 parser <> ::'['_x_','_'..'_','_x_']' not
+R1784:1784 action <> ::'&'_x not
+R1765:1765 action <> ::'&'_x not
+R1737:1737 action <> ::'&'_x not
+R1723:1734 P2_synthesis <> P2_synthesis def
+R1883:1885 IA <> ::':>'_x not
+R1886:1901 P2_synthesis <> P2_synthesis_hid def
+R1921:1923 IA <> ::':>'_x not
+R1924:1939 P2_synthesis <> P2_synthesis_rep def
+R1959:1974 refine <> SMENI_refinement def
+R1993:2008 P2_synthesis <> P2_synthesis_hid def
+R1976:1991 P2_synthesis <> P2_synthesis_rep def
