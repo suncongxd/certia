@@ -1,0 +1,35 @@
+DIGEST 0e960e12d7e2a7581a78c74503e74f86
+Fstarter
+R17:22 parser <> <> lib
+R41:46 refine <> <> lib
+def 63:69 <> starter
+R72:73 IA <> IA ind
+R78:82 parser <> parse def
+def 164:176 <> starter_m_rep
+R179:180 IA <> IA ind
+R185:191 starter <> starter def
+def 208:220 <> starter_m_hid
+R223:224 IA <> IA ind
+R229:235 starter <> starter def
+R257:272 refine <> SMENI_refinement def
+R288:300 starter <> starter_m_hid def
+R274:286 starter <> starter_m_rep def
+def 333:345 <> starter_l_rep
+R348:349 IA <> IA ind
+R356:372 IA IAutomaton hiding def
+R383:394 action ASet GenActs def
+R396:396 parser <> ::'['_x_','_'..'_','_x_']' not
+R405:405 parser <> ::'['_x_','_'..'_','_x_']' not
+R397:397 action <> ::'&'_x not
+R374:380 starter <> starter def
+def 423:435 <> starter_l_hid
+R438:439 IA <> IA ind
+R446:462 IA IAutomaton hiding def
+R473:484 action ASet GenActs def
+R486:486 parser <> ::'['_x_','_'..'_','_x_']' not
+R495:495 parser <> ::'['_x_','_'..'_','_x_']' not
+R487:487 action <> ::'&'_x not
+R464:470 starter <> starter def
+R518:533 refine <> SMENI_refinement def
+R549:561 starter <> starter_l_hid def
+R535:547 starter <> starter_l_rep def

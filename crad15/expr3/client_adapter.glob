@@ -1,0 +1,49 @@
+DIGEST 2150fa2b9b103af6700d32396a8363cf
+Fclient_adapter
+R15:20 parser <> <> lib
+R39:44 refine <> <> lib
+def 61:66 <> client
+R69:70 IA <> IA ind
+R75:79 parser <> parse def
+def 243:249 <> adapter
+R252:253 IA <> IA ind
+R258:262 parser <> parse def
+R570:592 IA IAutomaton b_compatible def
+R601:607 client_adapter <> adapter def
+R594:599 client_adapter <> client def
+def 633:646 <> client_adapter
+R649:650 IA <> IA ind
+R655:676 IA IAutomaton composition def
+R685:691 client_adapter <> adapter def
+R678:683 client_adapter <> client def
+def 1181:1198 <> client_adapter_rep
+R1201:1202 IA <> IA ind
+R1209:1225 IA IAutomaton hiding def
+R1311:1322 action ASet GenActs def
+R1324:1324 parser <> ::'['_x_','_'..'_','_x_']' not
+R1333:1333 parser <> ::'['_x_','_'..'_','_x_']' not
+R1342:1342 parser <> ::'['_x_','_'..'_','_x_']' not
+R1334:1334 action <> ::'&'_x not
+R1325:1325 action <> ::'&'_x not
+R1231:1252 IA IAutomaton replacement def
+R1279:1290 action ASet GenActs def
+R1292:1292 parser <> ::'['_x_','_'..'_','_x_']' not
+R1303:1303 parser <> ::'['_x_','_'..'_','_x_']' not
+R1293:1293 action <> ::'&'_x not
+R1270:1270 action <> ::'&'_x not
+R1254:1267 client_adapter <> client_adapter def
+def 1360:1377 <> client_adapter_hid
+R1380:1381 IA <> IA ind
+R1388:1404 IA IAutomaton hiding def
+R1422:1433 action ASet GenActs def
+R1435:1435 parser <> ::'['_x_','_'..'_','_x_']' not
+R1446:1446 parser <> ::'['_x_','_'..'_','_x_']' not
+R1455:1455 parser <> ::'['_x_','_'..'_','_x_']' not
+R1464:1464 parser <> ::'['_x_','_'..'_','_x_']' not
+R1456:1456 action <> ::'&'_x not
+R1447:1447 action <> ::'&'_x not
+R1436:1436 action <> ::'&'_x not
+R1406:1419 client_adapter <> client_adapter def
+R1487:1502 refine <> SMENI_refinement def
+R1523:1540 client_adapter <> client_adapter_hid def
+R1504:1521 client_adapter <> client_adapter_rep def

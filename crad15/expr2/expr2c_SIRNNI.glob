@@ -1,0 +1,82 @@
+DIGEST 79af1e9e9a841f73437a378c693153f2
+Fexpr2c_SIRNNI
+R101:106 refine <> <> lib
+R125:130 parser <> <> lib
+def 147:152 <> expr2c
+R155:156 IA <> IA ind
+R161:165 parser <> parse def
+def 293:305 <> expr2c_m1_res
+R308:309 IA <> IA ind
+R317:338 IA IAutomaton restriction def
+R348:359 action ASet GenActs def
+R361:361 parser <> ::'['_x_','_'..'_','_x_']' not
+R367:367 parser <> ::'['_x_','_'..'_','_x_']' not
+R362:362 action <> ::'&'_x not
+R340:345 expr2c_SIRNNI <> expr2c def
+def 385:397 <> expr2c_m1_hid
+R400:401 IA <> IA ind
+R409:425 IA IAutomaton hiding def
+R435:446 action ASet GenActs def
+R448:448 parser <> ::'['_x_','_'..'_','_x_']' not
+R454:454 parser <> ::'['_x_','_'..'_','_x_']' not
+R449:449 action <> ::'&'_x not
+R427:432 expr2c_SIRNNI <> expr2c def
+R477:491 refine <> RNNI_refinement def
+R507:519 expr2c_SIRNNI <> expr2c_m1_hid def
+R493:505 expr2c_SIRNNI <> expr2c_m1_res def
+def 556:568 <> expr2c_m2_res
+R571:572 IA <> IA ind
+R580:596 IA IAutomaton hiding def
+R662:673 action ASet GenActs def
+R675:675 parser <> ::'['_x_','_'..'_','_x_']' not
+R682:682 parser <> ::'['_x_','_'..'_','_x_']' not
+R676:676 action <> ::'&'_x not
+R603:624 IA IAutomaton restriction def
+R634:645 action ASet GenActs def
+R647:647 parser <> ::'['_x_','_'..'_','_x_']' not
+R653:653 parser <> ::'['_x_','_'..'_','_x_']' not
+R648:648 action <> ::'&'_x not
+R626:631 expr2c_SIRNNI <> expr2c def
+def 700:712 <> expr2c_m2_hid
+R715:716 IA <> IA ind
+R724:740 IA IAutomaton hiding def
+R750:761 action ASet GenActs def
+R763:763 parser <> ::'['_x_','_'..'_','_x_']' not
+R769:769 parser <> ::'['_x_','_'..'_','_x_']' not
+R776:776 parser <> ::'['_x_','_'..'_','_x_']' not
+R770:770 action <> ::'&'_x not
+R764:764 action <> ::'&'_x not
+R742:747 expr2c_SIRNNI <> expr2c def
+R799:813 refine <> RNNI_refinement def
+R829:841 expr2c_SIRNNI <> expr2c_m2_hid def
+R815:827 expr2c_SIRNNI <> expr2c_m2_res def
+def 877:888 <> expr2c_l_res
+R891:892 IA <> IA ind
+R900:916 IA IAutomaton hiding def
+R988:999 action ASet GenActs def
+R1001:1001 parser <> ::'['_x_','_'..'_','_x_']' not
+R1008:1008 parser <> ::'['_x_','_'..'_','_x_']' not
+R1002:1002 action <> ::'&'_x not
+R923:944 IA IAutomaton restriction def
+R954:965 action ASet GenActs def
+R967:967 parser <> ::'['_x_','_'..'_','_x_']' not
+R973:973 parser <> ::'['_x_','_'..'_','_x_']' not
+R979:979 parser <> ::'['_x_','_'..'_','_x_']' not
+R974:974 action <> ::'&'_x not
+R968:968 action <> ::'&'_x not
+R946:951 expr2c_SIRNNI <> expr2c def
+def 1026:1037 <> expr2c_l_hid
+R1040:1041 IA <> IA ind
+R1049:1065 IA IAutomaton hiding def
+R1075:1086 action ASet GenActs def
+R1088:1088 parser <> ::'['_x_','_'..'_','_x_']' not
+R1094:1094 parser <> ::'['_x_','_'..'_','_x_']' not
+R1100:1100 parser <> ::'['_x_','_'..'_','_x_']' not
+R1107:1107 parser <> ::'['_x_','_'..'_','_x_']' not
+R1101:1101 action <> ::'&'_x not
+R1095:1095 action <> ::'&'_x not
+R1089:1089 action <> ::'&'_x not
+R1067:1072 expr2c_SIRNNI <> expr2c def
+R1130:1144 refine <> RNNI_refinement def
+R1159:1170 expr2c_SIRNNI <> expr2c_l_hid def
+R1146:1157 expr2c_SIRNNI <> expr2c_l_res def

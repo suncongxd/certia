@@ -1,0 +1,38 @@
+DIGEST bf17517e65b5cdb6f968df51c38cb973
+Fclient
+R19:24 parser <> <> lib
+R43:48 refine <> <> lib
+def 65:70 <> client
+R73:74 IA <> IA ind
+R79:83 parser <> parse def
+def 247:256 <> client_rep
+R259:260 IA <> IA ind
+R267:283 IA IAutomaton hiding def
+R357:368 action ASet GenActs def
+R370:370 parser <> ::'['_x_','_'..'_','_x_']' not
+R377:377 parser <> ::'['_x_','_'..'_','_x_']' not
+R384:384 parser <> ::'['_x_','_'..'_','_x_']' not
+R378:378 action <> ::'&'_x not
+R371:371 action <> ::'&'_x not
+R289:310 IA IAutomaton replacement def
+R329:340 action ASet GenActs def
+R342:342 parser <> ::'['_x_','_'..'_','_x_']' not
+R349:349 parser <> ::'['_x_','_'..'_','_x_']' not
+R343:343 action <> ::'&'_x not
+R320:320 action <> ::'&'_x not
+R312:317 client <> client def
+def 402:411 <> client_hid
+R414:415 IA <> IA ind
+R422:438 IA IAutomaton hiding def
+R448:459 action ASet GenActs def
+R461:461 parser <> ::'['_x_','_'..'_','_x_']' not
+R468:468 parser <> ::'['_x_','_'..'_','_x_']' not
+R475:475 parser <> ::'['_x_','_'..'_','_x_']' not
+R482:482 parser <> ::'['_x_','_'..'_','_x_']' not
+R476:476 action <> ::'&'_x not
+R469:469 action <> ::'&'_x not
+R462:462 action <> ::'&'_x not
+R440:445 client <> client def
+R505:520 refine <> SMENI_refinement def
+R533:542 client <> client_hid def
+R522:531 client <> client_rep def

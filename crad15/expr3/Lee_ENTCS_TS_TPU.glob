@@ -1,0 +1,49 @@
+DIGEST e5981444337f9e2d363e6b824287b1ae
+FLee_ENTCS_TS_TPU
+R17:22 parser <> <> lib
+R41:46 refine <> <> lib
+def 63:64 <> TS
+R67:68 IA <> IA ind
+R73:77 parser <> parse def
+def 334:336 <> TPU
+R339:340 IA <> IA ind
+R345:349 parser <> parse def
+R497:519 IA IAutomaton b_compatible def
+R524:526 Lee_ENTCS_TS_TPU <> TPU def
+R521:522 Lee_ENTCS_TS_TPU <> TS def
+def 552:557 <> TS_TPU
+R560:561 IA <> IA ind
+R566:587 IA IAutomaton composition def
+R592:594 Lee_ENTCS_TS_TPU <> TPU def
+R589:590 Lee_ENTCS_TS_TPU <> TS def
+def 1159:1168 <> TS_TPU_hid
+R1171:1172 IA <> IA ind
+R1179:1195 IA IAutomaton hiding def
+R1205:1216 action ASet GenActs def
+R1218:1218 parser <> ::'['_x_','_'..'_','_x_']' not
+R1228:1228 parser <> ::'['_x_','_'..'_','_x_']' not
+R1236:1236 parser <> ::'['_x_','_'..'_','_x_']' not
+R1244:1244 parser <> ::'['_x_','_'..'_','_x_']' not
+R1237:1237 action <> ::'&'_x not
+R1229:1229 action <> ::'&'_x not
+R1219:1219 action <> ::'&'_x not
+R1197:1202 Lee_ENTCS_TS_TPU <> TS_TPU def
+def 1262:1271 <> TS_TPU_rep
+R1274:1275 IA <> IA ind
+R1282:1298 IA IAutomaton hiding def
+R1383:1394 action ASet GenActs def
+R1396:1396 parser <> ::'['_x_','_'..'_','_x_']' not
+R1404:1404 parser <> ::'['_x_','_'..'_','_x_']' not
+R1397:1397 action <> ::'&'_x not
+R1304:1325 IA IAutomaton replacement def
+R1344:1355 action ASet GenActs def
+R1357:1357 parser <> ::'['_x_','_'..'_','_x_']' not
+R1367:1367 parser <> ::'['_x_','_'..'_','_x_']' not
+R1375:1375 parser <> ::'['_x_','_'..'_','_x_']' not
+R1368:1368 action <> ::'&'_x not
+R1358:1358 action <> ::'&'_x not
+R1335:1335 action <> ::'&'_x not
+R1327:1332 Lee_ENTCS_TS_TPU <> TS_TPU def
+R1427:1442 refine <> SMENI_refinement def
+R1455:1464 Lee_ENTCS_TS_TPU <> TS_TPU_hid def
+R1444:1453 Lee_ENTCS_TS_TPU <> TS_TPU_rep def

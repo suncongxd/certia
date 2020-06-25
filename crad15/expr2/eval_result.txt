@@ -1,0 +1,32 @@
+expr2a_SIRNNI:
+1688 ms
+expr2a_SMENI:
+3994 ms
+expr2b_SIRNNI:
+1693 ms
+expr2b_SMENI:
+3881 ms
+expr2c_SIRNNI:
+1717 ms
+expr2c_SMENI:
+3978 ms
+expr2d_SIRNNI:
+1750 ms
+expr2d_SMENI:
+3932 ms
+expr2e_SIRNNI:
+1754 ms
+expr2e_SMENI:
+52384 ms
+expr2f_SIRNNI:
+1710 ms
+expr2f_SMENI:
+52309 ms
+expr2g_SIRNNI:
+1723 ms
+expr2g_SMENI:
+35487 ms
+expr2h_SIRNNI:
+1744 ms
+expr2h_SMENI:
+18714 ms

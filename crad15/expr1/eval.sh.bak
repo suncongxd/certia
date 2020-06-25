@@ -1,0 +1,132 @@
+#!/bin/bash
+#arg1=start,arg2=end,format:%s.%N
+function getTiming(){
+    start=$1
+    end=$2
+    start_s=$(echo $start | cut -d '.' -f 1)
+    start_ns=$(echo $start | cut -d '.' -f 2)
+    end_s=$(echo $end | cut -d '.' -f 1)
+    end_ns=$(echo $end | cut -d '.' -f 2)
+    time=$(( ( 10#$end_s - 10#$start_s ) * 1000 + ( 10#$end_ns / 1000000 - 10#$start_ns / 1000000 ) ))
+    echo "$time ms"
+}
+
+echo "expr1a_SIRNNI:"
+start=$(date +%s.%N)
+coqc expr1a_SIRNNI.v > expr1a_SIRNNI.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "expr1a_SMENI:"
+start=$(date +%s.%N)
+coqc expr1a_SMENI.v > expr1a_SMENI.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "example3_e_SIR:"
+start=$(date +%s.%N)
+coqc example3_e_SIR.v > example3_e_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "example3_e_SME:"
+start=$(date +%s.%N)
+coqc example3_e_SME.v > example3_e_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_SV_SIR:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_SV_SIR.v > Lee_ENTCS_SV_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_SV_SME:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_SV_SME.v > Lee_ENTCS_SV_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_TPU_SIR:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_TPU_SIR.v > Lee_ENTCS_TPU_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_TPU_SME:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_TPU_SME.v > Lee_ENTCS_TPU_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_TS_SIR:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_TS_SIR.v > Lee_ENTCS_TS_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_ENTCS_TS_SME:"
+start=$(date +%s.%N)
+coqc Lee_ENTCS_TS_SME.v > Lee_ENTCS_TS_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_CAP_SIR:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_CAP_SIR.v > Lee_SCCC_CAP_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_CAP_SME:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_CAP_SME.v > Lee_SCCC_CAP_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_Fig4_SIR:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_Fig4_SIR.v > Lee_SCCC_Fig4_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_Fig4_SME:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_Fig4_SME.v > Lee_SCCC_Fig4_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_Fig5_SIR:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_Fig5_SIR.v > Lee_SCCC_Fig5_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Lee_SCCC_Fig5_SME:"
+start=$(date +%s.%N)
+coqc Lee_SCCC_Fig5_SME.v > Lee_SCCC_Fig5_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Vehicle_SIR:"
+start=$(date +%s.%N)
+coqc Vehicle_SIR.v > Vehicle_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Vehicle_SME:"
+start=$(date +%s.%N)
+coqc Vehicle_SME.v > Vehicle_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Station_SIR:"
+start=$(date +%s.%N)
+coqc Station_SIR.v > Station_SIR.txt
+end=$(date +%s.%N)
+getTiming $start $end
+
+echo "Station_SME:"
+start=$(date +%s.%N)
+coqc Station_SME.v > Station_SME.txt
+end=$(date +%s.%N)
+getTiming $start $end
